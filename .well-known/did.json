@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:kaywilliams.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:kaywilliams.github.io#15431043675090e78ff70ec18f1a3eb7ed199ec1d76a8d6092b9b73324fc5ce5",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:kaywilliams.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "_X7t-SThxSX--KNz1gGx1uF-Jn4clt1I5q4JxDRH3oA=",
+        "y": "mWig8N0PJoRznedb38C-u77Cfi-v-KVmgKsO6wiLgeM=",
+        "kid": "15431043675090e78ff70ec18f1a3eb7ed199ec1d76a8d6092b9b73324fc5ce5",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
